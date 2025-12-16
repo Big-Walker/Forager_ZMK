@@ -6,6 +6,9 @@ This is the ZMK module for [the Forager keyboard](https://github.com/carrefinho/
 
 Featuring the awesome [zmk-rgbled-widget by caksoylar](https://github.com/caksoylar/zmk-rgbled-widget).
 
+> [!IMPORTANT]
+> This is a legacy branch for ZMK v0.3 (pre Zephyr 4.1 update). Note that this version of ZMK has a bug causing extra battery drain when using soft off. Consider upgrading to the [main branch](https://github.com/carrefinho/forager-zmk-module/tree/main).
+
 # Usage
 
 Add these lines to `config/west.yml` in your `zmk-config` repository:
@@ -22,11 +25,11 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3                              # <- use v0.3 release
       import: app/west.yml
     - name: forager-zmk-module                    # <---
       remote: carrefinho                          # <---
-      revision: main                              # <---
+      revision: v0.3                              # <- use v0.3 tag
     - name: zmk-rgbled-widget                     # <---
       remote: caksoylar                           # <---
       revision: main                              # <---
