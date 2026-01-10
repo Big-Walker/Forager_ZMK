@@ -3,22 +3,9 @@ include:
   # Standard split (left as central)
   - board: xiao_ble
     shield: forager_left rgbled_adapter
-    snippet: studio-rpc-usb-uart
+    snippet: softdevice-controller
   - board: xiao_ble
     shield: forager_right rgbled_adapter
-
-  # Dongle mode (dongle as central)
-  - board: xiao_ble
-    shield: forager_dongle
-    snippet: studio-rpc-usb-uart
-    artifact-name: forager_dongle-xiao_ble
-  - board: xiao_ble
-    shield: forager_left rgbled_adapter
-    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n  # set left to peripheral
-    artifact-name: forager_left-xiao_ble-dongle
-  - board: xiao_ble
-    shield: forager_right rgbled_adapter
-    artifact-name: forager_right-xiao_ble-dongle
 
   # Utility
   - board: xiao_ble
