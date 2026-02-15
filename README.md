@@ -14,7 +14,7 @@ Featuring the awesome [zmk-rgbled-widget by caksoylar](https://github.com/caksoy
 >  ---
 >  include:
 >-   - board: seeeduino_xiao_ble
->+   - board: xiao_ble
+>+   - board: xiao_ble//zmk
 > ```
 >
 > If you'd like to stick with ZMK v0.3, you can use the [zmk-v0.3 branch](https://github.com/carrefinho/forager-zmk-module/tree/zmk-v0.3).
@@ -52,10 +52,10 @@ Then add `forager_left` and `forager_right` shields to your `build.yaml`:
 ```yaml
 ---
 include:
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: forager_left rgbled_adapter
     snippet: studio-rpc-usb-uart
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: forager_right rgbled_adapter
 ```
 
