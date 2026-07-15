@@ -1,18 +1,11 @@
 {
   "version": 1,
-  "metadata": {
-    "name": "Forager Colemak-DH",
-    "author": "Big-Walker"
-  },
   "layers": [
-    {
-      "name": "Colemak-DH",
-      "keys": [
-        "Q", "W", "F", "P", "B", null, "J", "L", "U", "Y", "SEMI",
-        "A", "R", "S", "T", "G", null, "M", "N", "E", "I", "O",
-        "Z", "X", "C", "D", "V", null, "K", "H", "COMMA", "DOT", "FSLH",
-        null, null, null, "LCTRL", "LALT", "SPACE", "LSFT", null, null, null
-      ]
-    }
+    [
+      "Q", "W", "F", "P", "B", null, "J", "L", "U", "Y", "SEMI",
+      "A", "R", "S", "T", "G", null, "M", "N", "E", "I", "O",
+      "Z", "X", "C", "D", "V", null, "K", "H", "COMMA", "DOT", "FSLH",
+      null, null, null, "LCTRL", "LALT", "SPACE", "LSFT", null, null, null
+    ]
   ]
 }
