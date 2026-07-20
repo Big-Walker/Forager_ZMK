@@ -18,10 +18,10 @@
 #
 ---
 include:
-  - board: seeeduino_xiao_ble/nrf52840
+  - board: seeeduino_xiao_ble@0.9.0//zmk
     shield: forager_left rgbled_adapter
     snippet: studio-rpc-usb-uart
-  - board: seeeduino_xiao_ble/nrf52840
+  - board: seeeduino_xiao_ble@0.9.0//zmk
     shield: forager_right rgbled_adapter
-  - board: seeeduino_xiao_ble/nrf52840
+  - board: seeeduino_xiao_ble@0.9.0//zmk
     shield: settings_reset
